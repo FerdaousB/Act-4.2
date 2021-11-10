@@ -9,7 +9,7 @@ pageEncoding="UTF-8"%>
 <body>
 <%@ include file="Header.jsp" %>
 <section>
-<label for="title">Titre : </label>
+<label for="title">Titre </label>
 <input type="text" name ="title" id ="title">
 </section>
 
@@ -27,12 +27,12 @@ pageEncoding="UTF-8"%>
 </section>
 
 <section>
-<label for="price">Prix : : </label>
+<label for="price">Prix:</label>
 <input type="number" name ="price" id ="price">
 </section>
 
 <section>
-<label for="localisation">Localisation : : </label>
+<label for="localisation">Localisation:</label>
 <input type="text" name ="localisation" id ="localisation">
 </section>
 </body>
