@@ -8,15 +8,15 @@ import com.thp.project.vintud.entity.Announcement;
 
 public class AnnonceController {
 	
-	AnnonceDAO U2 = Factory.getAnnoucementDAO();
+	static AnnonceDAO U2 = Factory.getAnnoucementDAO();
 	
 	
-	private AnnonceController(){
+	public AnnonceController(){
 		
 	}
 	
 		
-	public List<Announcement> findAnnouncementsById(){
+	public static List<Announcement> findAnnouncementsById(){
 				
 		return  U2.findAnnouncementsById();
 		

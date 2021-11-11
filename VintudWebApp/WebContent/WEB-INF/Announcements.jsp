@@ -7,7 +7,6 @@ pageEncoding="UTF-8"%>
 <title>Announcements</title>
 </head>
 <body>
-<%@ include file="Header.jsp" %>
 <table border='1' width='100%'>
 <thead>
 <tr>

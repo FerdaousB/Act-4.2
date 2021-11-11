@@ -10,18 +10,18 @@ import jakarta.servlet.http.HttpServletResponse;
 
 
 
-@WebServlet("/Announcement")
-public class Announcement extends HttpServlet {
+@WebServlet("/ListeAnnonce")
+public class ListeAnnonce extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-    public Announcement() {
+    public ListeAnnonce() {
 
     }
 
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-		this.getServletContext().getRequestDispatcher("/WEB-INF/CreateAnnouncement.jsp").forward(request, response);
+		this.getServletContext().getRequestDispatcher("/WEB-INF/Announcements.jsp").forward(request, response);
 	}
 
 	
